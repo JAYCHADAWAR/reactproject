@@ -1,3 +1,7 @@
+*{
+  margin:0;
+  padding:0;
+  }
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +15,277 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.logo{
+  margin-bottom:20px ;
+  color:white;
+}
+.sidebar
+{
+padding:25px;
+background-color:rgba(93, 40, 241, 0.795);
+width:25%;
+padding-left:50px;
+height:600px;
+}
+.division
+{
+width:100%;
+display:flex;
+}
+.content
+{
+  
+width:100%;
+margin:30px;
+}
+.navbar{
+  
+  width: 250px;
+ 
+  color:white;
+  display:flex;
+  align-items: center;
+ 
+  
+ 
+  
+}
+.navbar a{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  color:white;
+  display: block;
+  margin-bottom: 20px;
+ 
+}
+
+
+
+a:hover
+{
+ 
+ background-color: white;
+ color:rgba(93, 40, 241, 0.795);
+ width:100%;
+ border-radius: 25px;
+ 
+ 
+}
+.icon{
+ 
+  
+  font-size: 30px;
+  margin-right:5px;
+}
+.circle
+{
+  background: lightblue;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+#ed
+{
+  position:absolute;
+  top:210px;
+  left:450px;
+}
+.edit{
+  font-size: x-large;
+  background-color: blueviolet;
+  color:white;
+  border:none;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  text-align: center;
+  cursor:pointer;
+}
+.ename{
+  margin-left:10px;
+  border:none;
+  padding-left:5px;
+  padding-right:5px;
+  color:white;
+  background-color: blue;
+  border-radius:5px;
+  text-transform: capitalize;
+
+}
+.name{
+  font-size:xx-large;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.uname{
+  font-style: italic;
+  font-weight:lighter;
+}
+.tagline{
+  font-size: 1rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table,th,td{
+  
+  
+  padding:2px;
+  border:none;
+  
+  }
+  th,td {
+  width:auto;
+  text-align:start;
+  }
+  .b2{
+    margin-top:100px;
+  }
+  .b3{
+    margin-top: 20px;
+  }
+  .in{
+    width:100%;
+  }
+  .save{
+    width:100%;
+    background-color: rgb(14, 113, 243);
+    color:white;
+    border:none;
+    text-transform:capitalize;
+  }
+  .logout{
+    width:100%;
+    background-color: red;
+    color:white;
+    border:none;
+
+  }
+  .respass{
+    width:100%;
+    background-color:green;
+    color:white;
+    border:none;
+  }
+  
+
+  .st{
+    width:200px;
+    height:200px;
+    color:red;
+    
+    
+
+background: linear-gradient(135deg, rgb(253, 9, 217), #64b5f6);
+  }
+  .st2{
+    width:200px;
+    height:200px;
+    color:red;
+   
+    background: linear-gradient(135deg,#ffec61, #f321d7);
+
+  }
+  .st3{
+    width:200px;
+    height:200px;
+    color:red;
+    
+    background: linear-gradient(135deg,#24ff72, #2196F3);
+  }
+  .statistics{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:50px;
+  }
+  
+  .pg{
+    width:25%;
+  }
+  .cntl{
+    width:1150px;
+    margin-bottom:50px;
+    height:390px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    white-space: nowrap;
+   overflow-x:scroll;
+   overflow-y: hidden;
+   
+  }
+  .cntl::-webkit-scrollbar {
+    display: none;
+  }
+  .cntl .cards{
+    
+    white-space: normal;
+   width:18rem;
+   height:350px;
+  
+  
+   display:inline-flex;
+   margin-right:15px;
+
+   
+  }
+  .cntl .cards{
+    border-radius:5px;
+    border:1px solid rgb(224, 216, 216);
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+
+  }
+  .cntl .cards:hover{
+    transform: scale(1.04);
+    transition-duration: 0.4s;
+    
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+  
+  .lb{
+   
+  
+  }
+  .rb{
+    height:100px;
+    
+  }
+  .butns{
+    margin-top: 30px;
+    display:flex-start;
+    justify-content:space-around;
+  }
+  
+  .inb{
+    
+   
+    background-color:rgb(73, 73, 226);
+    color:white;
+    border:none;
+    padding-left:8px;
+    padding-right: 20px;
+    margin-right:5px;
+
+  }
+  
+  .courses{
+    
+    border:1px solid rgb(196, 189, 189);
+    border-radius:5px;
+    margin-bottom:10px;
+    
+  }
+  
+  .ccou{
+    height:500px;
+    overflow:scroll;
+  }
+  .ccou::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .title{
+    
+    width:100%;
+    text-align: center;
+    font-size: x-large;
+  }

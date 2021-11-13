@@ -289,3 +289,24 @@ background: linear-gradient(135deg, rgb(253, 9, 217), #64b5f6);
     text-align: center;
     font-size: x-large;
   }
+
+.txtc{
+    background-color: azure;
+  }
+  .btnc{
+    background-color: azure;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btnc button{
+    width:250px;
+    height:36px;
+    background-color: rgb(31, 8, 235);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-weight: 200;
+    
+
+  }

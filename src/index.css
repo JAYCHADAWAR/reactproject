@@ -21,10 +21,12 @@ code {
 }
 .sidebar
 {
-padding:25px;
+  
 background-color:rgba(93, 40, 241, 0.795);
 width:25%;
-padding-left:50px;
+padding:15px;
+
+
 height:600px;
 }
 .division
@@ -35,32 +37,37 @@ display:flex;
 .content
 {
   
-width:100%;
+width:75%;
 margin:30px;
 }
 .navbar{
   
-  width: 250px;
- 
+  width: 100%;
+  
   color:white;
-  display:flex;
-  align-items: center;
- 
+  
+  
   
  
   
 }
 .navbar a{
-  padding: 8px;
+  width:100%;
+  padding:8px;
   text-decoration: none;
   font-size: 15px;
   color:white;
-  display: block;
+  
   margin-bottom: 20px;
  
 }
 
-
+.contai{
+  
+  width:100%;
+ 
+    
+}
 
 a:hover
 {
@@ -193,16 +200,19 @@ background: linear-gradient(135deg, rgb(253, 9, 217), #64b5f6);
     background: linear-gradient(135deg,#24ff72, #2196F3);
   }
   .statistics{
-    display:flex;
-    justify-content: space-around;
-    margin-bottom:50px;
+    width:100%;
+    margin-bottom: 50px;
+    
+   
   }
+  
   
   .pg{
     width:25%;
   }
   .cntl{
-    width:1150px;
+    width:100%;
+    
     margin-bottom:50px;
     height:390px;
     padding-left: 10px;
@@ -210,12 +220,13 @@ background: linear-gradient(135deg, rgb(253, 9, 217), #64b5f6);
     
     white-space: nowrap;
    overflow-x:scroll;
-   overflow-y: hidden;
    
+   overflow-y: hidden;
   }
   .cntl::-webkit-scrollbar {
     display: none;
   }
+  
   .cntl .cards{
     
     white-space: normal;
@@ -292,6 +303,7 @@ background: linear-gradient(135deg, rgb(253, 9, 217), #64b5f6);
 
 .txtc{
     background-color: azure;
+   
   }
   .btnc{
     background-color: azure;
@@ -309,4 +321,16 @@ background: linear-gradient(135deg, rgb(253, 9, 217), #64b5f6);
     font-weight: 200;
     
 
+  }
+
+  @media screen and (max-width:900px){
+    
+    .mitems{
+      display:none;
+      
+    }
+    
+    
+   
+    
   }
